@@ -1,8 +1,4 @@
-FROM ubuntu:14.04
-
-RUN apt-get update && apt-get install -y \
-                      python
-                      python-pip
+FROM python:2.7.10
 
 RUN pip install flask
 
